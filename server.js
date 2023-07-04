@@ -1,8 +1,7 @@
 const express = require('express');
 const app = express();
 
-const fs = require('fs');
-const path = require ('path')
+
 
 const PORT = process.env.port || 3001;
 
@@ -17,7 +16,7 @@ app.use(express.json());
 
 
 app.use('/api', apiRoutes);
-app.use('/api' htmlRoutes);
+app.use('/api', htmlRoutes);
 
 app.listen(PORT, () =>
   console.log(`This is the current port number http://localhost:${PORT}!`)
