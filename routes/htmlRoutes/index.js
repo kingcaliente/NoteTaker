@@ -18,3 +18,7 @@ module.exports = router;
 
 
 
+app.UseCors(builder => builder
+    .AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader()

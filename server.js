@@ -19,7 +19,7 @@ app.use('/api', apiRoutes);
 app.use('/api', htmlRoutes);
 
 app.listen(PORT, () =>
-  console.log(`This is the current port number http://localhost:${PORT}!`)
+  console.log(`This is the current port number ${PORT}!`)
 );
 
 
