@@ -1,3 +1,14 @@
 {
-    "notesArray": []
-  }
+  "notesArray": [
+    {
+      "title": "Test",
+      "text": "Test",
+      "id": "0"
+    },
+    {
+      "title": "Mama Mia",
+      "text": "WOW",
+      "id": "1"
+    }
+  ]
+}
